@@ -45,7 +45,7 @@ body {
 
 .mid {
     height: 140px;
-    padding: 160px 100px;
+    padding: 160px 0px;
     text-align: center;
     font-size: 100px;
 }
