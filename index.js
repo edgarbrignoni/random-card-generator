@@ -2,6 +2,7 @@ function init() {
 	var randomNumber = Math.floor(Math.random() * 12 + 1);
 	var randomSuit = Math.floor(Math.random() * 4);
 	buildCard(randomNumber, randomSuit);
+	return false;
 }
 
 function buildCard(number, suit) {
@@ -36,4 +37,7 @@ function buildCard(number, suit) {
 		document.querySelector('.mid').innerHTML = number;
 		document.querySelector('.mid').style.color = 'black';
 	}
+	return false;
 }
+
+document.querySelector('.main').addEventListener('click', init);
