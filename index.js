@@ -10,10 +10,10 @@ function buildCard(number, suit) {
 	var bot = document.querySelector('.bot');
 	console.log(number + ' ' + suit);
 	
-	if (number == 1){ number = 'A'};
-	if (number == 11){ number = 'J'};
-	if (number == 12){ number = 'Q'};
-	if (number == 13){ number = 'K'};
+	if (number == 1){ number = 'A'}
+	if (number == 11){ number = 'J'}
+	if (number == 12){ number = 'Q'}
+	if (number == 13){ number = 'K'}
 	
 	
 	if (suit == 0) {
